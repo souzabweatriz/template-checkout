@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Tecnico N1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>  
+    <div class="container">
+        <header class="checkout-header">
+            <button class="seta">⭠</button>
+            <div>
+                <h1 class="titulo">Checkout</h1>
+                <p class="subtitulo">Homepage/Clothing Category/Checkout</p>
+            </div>
+        </header>
+        <div class="line"></div>
+        <section class="questionario">
+            <form action="">
+        <legend>Contact Information</legend>
+        <div class="container-form">
+        <div class="first-name">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" placeholder="First Name e.g Clara, Smith" required maxlenght="100">
+        </div>
+        <div class="last-name"> 
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Last Name e.g Wilson, Clara" required maxlenght="100">
+        </div> 
+    </div>      
+    <div class="contact">                                                                                                                                                                                                                                                                                                                                                                                                          
+        <div class="email">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Youremail@gmail.com" required>
+        </div>
+        <div class="phone-number">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="+1-(0000 000 0000)" required>
+        </div>    
+    </div>
+    <legend>Delivery Information</legend>
+    <div class="delivery">
+        <div class="delivery-date">
+            <label for="Delivery Date:">Delivery Date</label>
+            <input type="date" id="delivery-date" name="delivery" placeholder="DD/MM/YYYY" required>
+        </div>
+        <div class="time">
+            <label for="time">Conveniente Time:</label>
+        <input type="time" id="time" name="time" min="06:00" max="18:00" required>
+        </div>
+    </div> 
+    <div class="address">
+        <label for="city">City:</label>
+        <select name="city" id="city" required>
+            <option value="new-york">New York</option>
+            <option value="houston">Houston</option>
+            <option value="los-angeles">Los Angeles</option>
+            <option value="chigado">Chicago</option>
+            <option value="filadélfia">Filadélfia</option>
+        </select>
+</div>
+        <div class="address-url">
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" placeholder="Add your address" required maxlength="100">
+            <div class="code">
+                <label for="code">Code:</label>
+                <input type="text" id="code" name="code" placeholder="Code" required maxlength="10">
+                <button type="submit"  class="botao">Proceed to Payment</button>
+            </div>
+        </div>
+    </div>
+</form>
+</section>
+</div>
+<section class="shopping">
+    <h2 class="title-aside">Your Order</h2>
+    <div class="line02">    </div>
+        <p class="produtos">Vintage Sport Jacket</p>
+        <img class="imagem-produtos" src="/img/jaqueta-retro.png" alt="imagem de uma jaqueta branca com vermelho esportiva americana">
+        <p class="descricao">-Vintage Highschool Jock Bully-1960 Classic Edition</p>
+        <div class="order-item">
+            <h2 class="title">Quality
+                <div class="quantidade-item">
+                    <h3 class="botao-quantidade">
+                        <h3 class="valor-quantidade">2</h3>
+                        <h3 class="botao-maismenos">+</h3>
+                    </h3>
+                </div>
+            </h2>
+        </div>
+        <div class="order-forms">
+            <div class="form-wrapper">
+                <form>
+                    <fieldset>
+                        <div class="form-left">
+                            <label class="form-label" for="product-size">Choose Size</label>
+                            <select name="product-size" id="product-size" required>
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                                <option value="x-large">X-Large</option>
+                                <option value="xx-large">XX-Large</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                </form>
+                <form>
+                    <fieldset>
+                        <div class="form-left">
+                            <label class="form-label" for="product-color">Choose Color</label>
+                            <select name="product-color" id="product-color" required>
+                                <option value="red">Red</option>
+                                <option value="blue">Blue</option>
+                                <option value="green">Green</option>
+                                <option value="yellow">Yellow</option>
+                                <option value="purple">Purple</option>
+                                <option value="black">Black</option>
+                                <option value="white">White</option>
+                                <option value="pink">Pink</option>
+                                <option value="orange">Orange</option>
+                                <option value="brown">Brown</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                </form>
+                <h3 class="price">$165.00</h3>
+            </div>
+        </div>
+        <div class="divider"></div>
+
+<div class="order-container">
+    <div class="product-header">
+        <h2>Retro Sport Jacket</h2>
+    </div>
+
+    <div class="product-details">
+        
+        <img class="product-image" src="./img/jaqueta-retro.png" alt="Retro Jacket">
+
+        <div class="description">
+            <p>- Retro Winter Collection</p>
+            <p>- 1975 Edition</p>
+        </div>
+
+        <div class="quantity-control">
+            <h1 class="quantity-title">Quantity</h1>
+            <div class="quantity-buttons">
+                <button class="decrement">-</button>
+                <span class="quantity-value">1</span>
+                <button class="increment">+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-section">
+        <div class="form-wrapper">
+            <form>
+                <fieldset>
+                    <div class="form-left">
+                        <label class="form-label" for="size-selection">Size</label>
+                        <select name="size-selection" id="size-selection" required>
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                            <option value="x-large">X-Large</option>
+                            <option value="xx-large">XX-Large</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </form>
+
+            <form>
+                <fieldset>
+                    <div class="form-left">
+                        <label class="form-label" for="color-selection">Color</label>
+                        <select name="color-selection" id="color-selection" required>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="purple">Purple</option>
+                            <option value="black">Black</option>
+                            <option value="white">White</option>
+                            <option value="pink">Pink</option>
+                            <option value="orange">Orange</option>
+                            <option value="brown">Brown</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </form>
+            <h3 class="price">$165.00</h3>
+        </div>
+    </div>
+</div>
+
+<div class="divider"></div>
+
+<div class="summary">
+    <div class="subtotal">
+        <h2>Subtotal</h2>
+        <h3>$654.00</h3>
+    </div>
+    <div class="shipping">
+        <h2>Shipping</h2>
+        <h3>$64.00</h3>
+    </div>
+    <div class="taxes">
+        <h2>VAT & Tax</h2>
+        <h3>$64.00</h3>
+    </div>
+    <div class="divider"></div>
+    <div class="total">
+        <h2>Total</h2>
+        <h3>$778.00</h3>
+    </div>
+</div>
+</section>
+</main>
+</body>
+</html>
